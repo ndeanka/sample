@@ -1,0 +1,42 @@
+html{
+  background-color: white;
+}
+body{
+  margin: 0 auto;
+  width: 1258px;
+  height: 900px;
+  background-color: rgb(255, 234, 157);
+  padding: 10px;
+}
+table{
+  margin-top: 5px;
+}
+ tr, th ,td{
+  border: 1px solid green;
+  margin-left: 5px;
+  color: rgb(254, 55, 58);
+}
+table tr td{
+  padding: 4px;
+  background-color: rgb(88, 89, 37);
+  color: white;
+  font-size: 17px;
+}
+table tr th{
+  background: rgb(204, 82, 0);
+  color: white
+}
+.lgout{
+  background-color: rgb(204, 123, 0);
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  border: 1px solid rgb(204, 123, 0);
+  border-radius: 4px; 
+  padding: 3px;
+  margin-left: 9px;
+}
+.delt{
+  color: rgb(0, 204, 95);
+  text-decoration: none;
+}

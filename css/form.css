@@ -1,0 +1,105 @@
+html {
+
+}
+.cf:after,.cf:before{
+  display: table;
+  content: "";
+}
+.cf:after{
+  clear: both;
+}
+body{
+  margin: 0 auto;
+  width: 900px;
+  height: 800px;
+  font-family: sans-serif;
+  _adding: 23px 10px;
+}
+.student_form{
+  _border: 1px solid black;
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 1em;
+  background: whitesmoke;
+  color: rgba(23,23,23,.7);
+  padding-top: .2em;
+}
+.student_form ul{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.student_form ul li{
+  display: block;
+  list-style: none;
+ _ border: 1px solid black;
+  margin-bottom: 10px;
+  
+}
+.student_form ul li input{
+  width: 268px;
+  height: 2em;
+  border: 1px solid rgba(23,23,23,.3);
+  font-size:15px;
+  font-family:arial;
+  margin-left:10px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.student_form .radio input{
+  width: 20px;
+  float: left;
+}
+.student_form ul li input:focus{
+  border: 1px solid rgb(23,193,23);
+}
+.student_form .radio label{
+  float: left;
+  line-height: 2.2em;
+  margin-right: 10px;
+}
+.student_form .radio label:hover{
+  cursor: pointer;
+}
+.student_form .radio input:hover{
+  cursor: pointer;
+}
+.student_form .Disability{
+  display: block;
+  width: 100%;
+  margin-left: .9em;
+}
+
+.student_form textarea{
+  display: block;
+  margin: 0 auto;
+  width: 560px;
+  resize: none;
+  height: 8em;
+   border: 1px solid rgba(23,23,23,.3);
+  padding: 5px;
+  font-family:georgia;
+}
+.student_form h5{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(67,123,179,.9);
+  text-transform: uppercase;
+}
+.student_form .sub_btn{
+  border: 1px solid rgba(78,190,100,.9);
+  margin-left: 140px;
+  width: 300px;
+  padding: .5em;
+  font-size: 16px;
+  background: rgba(78,190,100,.9);
+  color: white;
+  border-radius: 5px;
+  margin-top: 1em;
+   margin-bottom: 1em;
+}
+.student_form .sub_btn:hover{
+  cursor: pointer;
+  background: rgba(78,190,100,.5);
+}
